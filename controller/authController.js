@@ -5,6 +5,8 @@ const jwt = require('jsonwebtoken');
 const bcrypt = require('bcryptjs');
 const config = require('../config');
 const User = require('../model/UserSchema.js');
+
+
 const router = express.Router();
 
 // Middleware to parse JSON bodies
