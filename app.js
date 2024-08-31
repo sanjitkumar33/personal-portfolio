@@ -8,7 +8,7 @@ require('dotenv').config(); // For environment variables
 const app = express();
 const PORT = process.env.PORT || 5002;
 const MONGO_URI = process.env.MONGO_URI || 'mongodb+srv://sanjuzom:z9qRX07wtVw8iK2Q@cluster0.w7yd8em.mongodb.net/internmay?retryWrites=true&w=majority';
-
+// const MONGO_URI = process.env.MONGO_URI || 'mongodb://localhost:27017/internmay';
 
 // use cors
 app.use(cors({
