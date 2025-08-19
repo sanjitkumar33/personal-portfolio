@@ -1,8 +1,8 @@
 import { RevealOnScroll } from "../RevealOnScroll";
 
 export const About = () => {
-  const frontEndSkills = ["React", "Vue", "TypeScript", "TailwindCss", "Svelte"];
-  const backEndSkills = ["Node.js", "Python", "MongoDB", "Express.js", "Postgres"];
+  const frontEndSkills = ["Html", "Css", "Javascript", "TailwindCss", "Vite", "React.js"];
+  const backEndSkills = ["Node.js",  "MongoDB", "Express.js"];
 
   return (
     <section
@@ -64,7 +64,7 @@ export const About = () => {
                   </strong>{" "}
                   – RTMNU (2012–2016)
                 </li>
-                <li>Relevant Course: Full Stack Developer</li>
+                <li>Relevant Course: Full Stack Web Developer</li>
               </ul>
             </div>
 
@@ -72,14 +72,20 @@ export const About = () => {
               <h3 className="text-xl font-bold mb-4">Work Experience</h3>
               <div className="space-y-4 text-gray-300">
                 <div>
-                  <h4 className="font-semibold">NME Digital Agency (2018–2020)</h4>
-                  <p>Website Designer</p>
+                  <h4 className="font-semibold">ArenaItech Pvt Ltd (2024–2025)</h4>
+                  <p>FrontEnd Developer</p>
                 </div>
                 <div>
                   <h4 className="font-semibold">
-                    Edureka Training & Working (2022–2023)
+                    Edureka Training & Working (2023–2024)
                   </h4>
                   <p>Full Stack Developer</p>
+                </div>
+                <div>
+                  <h4 className="font-semibold">
+                    NME Digital Agency (2018–2020)
+                  </h4>
+                  <p>Website Designer</p>
                 </div>
               </div>
             </div>

@@ -16,7 +16,7 @@ export const Projects = () => {
                             <p className="text-gray-400 mb-4">Restaurant app for food delivery.</p>
 
                             <div className="flex flex-wrap gap-2 mb-4">
-                                {["React", "Node.js", "MongoDB"].map((tech, key) => (
+                                {[ "Html", "Css", "JavaScript", "React", "Node.js", "MongoDB"].map((tech, key) => (
                                     <span
                                         key={key}
                                         className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm 
@@ -34,11 +34,11 @@ export const Projects = () => {
 
                         {/* Project 2 */}
                         <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.1)] transition">
-                            <h3 className="text-xl font-bold mb-2">Payment Solution Aggregator</h3>
+                            <h3 className="text-xl font-bold mb-2">Online Payment Solution Aggregator</h3>
                             <p className="text-gray-400 mb-4">Platform for managing multiple online payment gateways.</p>
 
                             <div className="flex flex-wrap gap-2 mb-4">
-                                {["React", "Express", "MongoDB", "JWT"].map((tech, key) => (
+                                {[ "Html","Css","BootStrap", "JavaScript", "React", "Node.js", "Express", "MongoDB", "JWT"].map((tech, key) => (
                                     <span
                                         key={key}
                                         className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm 
