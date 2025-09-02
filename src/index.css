@@ -47,8 +47,4 @@ html, body {
         width: auto;
     }
 }
-@media (max-width: 600px){
-    .personal{
-        width: auto;
-    }
-}
+
