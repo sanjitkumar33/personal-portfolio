@@ -42,3 +42,13 @@ html, body {
     opacity: 1;
     transform: translateY(0);
 }
+@media (max-width: 500px){
+    .personal{
+        width: auto;
+    }
+}
+@media (max-width: 600px){
+    .personal{
+        width: auto;
+    }
+}
