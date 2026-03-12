@@ -27,7 +27,7 @@ export const Projects = () => {
                                 ))}
                             </div>
 
-                            <a href="#" className="text-blue-400 hover:text-blue-300 transition-colors">
+                            <a href="https://github.com/sanjitkumar33/tomato-front" target="_blank" className="text-blue-400 hover:text-blue-300 transition-colors">
                                 View Project
                             </a>
                         </div>
@@ -49,7 +49,7 @@ export const Projects = () => {
                                 ))}
                             </div>
 
-                            <a href="#" className="text-blue-400 hover:text-blue-300 transition-colors">
+                            <a href="https://github.com/sanjitkumar33/payu" target="_blank" className="text-blue-400 hover:text-blue-300 transition-colors">
                                 View Project
                             </a>
                         </div>
